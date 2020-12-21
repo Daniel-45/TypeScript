@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "yanone";
+    src: url("./../fonts/yanone.ttf");
+}
+
+* {
+    font-family: "yanone", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #4b6cb7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1,
+p {
+    display: block;
+    line-height: .8;
+    color: white;
+}
+
+p {
+    line-height: 1;
+}
+
+a, a:visited  {
+    color: orange;
+    text-decoration: none;
+}
+
+span {
+    color: orange;
+    font-weight: bold;
+}
+
+.contenido {
+    width: 90%;
+    margin: 5rem auto 0 auto;
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido h1 {
+    text-align: center;
+}
+
+#resultado,
+#resultado div,
+a,
+p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-top: 2.6rem;
+    margin-bottom: 2.6rem;
+}
+
+#meses {
+    font-size: 1.6rem;
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}

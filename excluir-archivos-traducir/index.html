@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="contenido">
+        <h1>Excluir archivos TypeScript</h1>
+        <hr>
+        <p>
+            Para ecluir archivos para traducir y evitar la compilación de los archivos de un directorio al entrar en
+            modo observador con <span>tsc -w</span> hay que modificar el fichero <span>tsconfig.json</span>
+        </p>
+        <p>
+            Hay que añadir <span>"exlude": ["nombre-directorio"]</span> para evitar que se generen los ficheros
+            <span>.js</span> en ese directorio.
+        </p>
+        <div id="resultado">
+
+        </div>
+
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
